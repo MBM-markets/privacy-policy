@@ -13,6 +13,8 @@
         .disclaimer { background-color: #fffbe6; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 4px; }
         .disclaimer h2 { margin-top: 0; color: #b45309; }
         footer { margin-top: 48px; font-size: 0.9em; color: #9ca3af; border-top: 1px solid #e5e7eb; padding-top: 20px; text-align: center; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -23,25 +25,33 @@
     <p><strong>Brand / Operator:</strong> Money Badger Markets</p>
 
     <h2>1. Privacy-First Architecture & Zero Data Collection</h2>
-    <p>The <strong>MBM Commodity RR Calculator</strong> is built from the ground up as a privacy-focused, 100% offline mathematical tool. We do not collect, process, track, transmit, or store any personal information, usage analytics, telemetry data, location data, or unique device identifiers.</p>
+    <p>The <strong>MBM Commodity RR Calculator</strong> is built from the ground up as a privacy-focused offline mathematical utility. We do not collect, process, track, transmit, or store any personal information, usage telemetry data, or unique device identifiers.</p>
 
-    <h2>2. Local Device Storage</h2>
-    <p>All inputs, calculated position sizes, risk-to-reward ratios, saved trading journal logs, and scorecard entries remain strictly on your local device storage. None of your data ever leaves your device or connects to external servers, cloud infrastructure, or databases.</p>
+    <h2>2. Local Storage & File Access</h2>
+    <p>All inputs, calculated position sizes, risk-to-reward ratios, saved trading journal entries, and scorecard data remain strictly on your local device hardware. None of your local data ever connects to external servers, cloud infrastructure, or remote databases.</p>
+    <ul>
+        <li><strong>Export CSV:</strong> Saves a local backup file to your device's <code>Documents/MBM</code> folder. On Android 10 and older versions, the app may request device storage permission to write this file. On Android 11 and newer, no storage permission is requested.</li>
+        <li><strong>Import CSV:</strong> Uses the system file picker to let you select a file manually. No background storage permissions are required.</li>
+        <li><strong>Share / Backup:</strong> Opens your device’s native share menu. Where the file is sent is entirely your choice, and the target application you choose operates under its own privacy policy. We never receive or intercept these files, and the app does not read any unrelated files on your device.</li>
+    </ul>
 
-    <h2>3. Storage Permissions (CSV Export & Import)</h2>
-    <p>The application requests local file storage access solely to enable the user-initiated <strong>Export CSV</strong> and <strong>Import CSV</strong> features for your local trading journal backup. The app does not read, modify, or transmit any unrelated files on your device.</p>
+    <h2>3. External Links & Open Source Framework</h2>
+    <p>The app contains zero third-party SDKs that collect data, serve advertisements, or track users. It is built using open-source tools including the Capacitor framework.</p>
+    <p>The <strong>About</strong> tab in the app contains external links to official Money Badger Markets social channels (such as YouTube, Instagram, and Telegram). These links only open external websites or apps when you explicitly tap them.</p>
 
-    <h2>4. Analytics, Ads, and Third-Party SDKs</h2>
-    <p>The MBM Commodity RR Calculator contains <strong>zero third-party Software Development Kits (SDKs)</strong>, no advertising networks, no tracking scripts, and no analytics engines. The application operates completely offline without requiring an active internet connection.</p>
+    <h2>4. Children's Privacy</h2>
+    <p>The MBM Commodity RR Calculator is intended for adult users, financial traders, and individuals managing trading risk. We do not knowingly collect or solicit any information from children under 13 years of age.</p>
 
     <div class="disclaimer">
-        <h2>5. Financial Utility & Regulatory Disclaimer</h2>
+        <h2>5. Financial Utility & Non-Advisory Disclaimer</h2>
         <p>Money Badger Markets (MBM) Commodity RR Calculator is a personal mathematical position-sizing utility designed solely for educational and risk planning purposes. It does not offer financial advice, trading signals, automated order execution, or portfolio management services. Trading commodities involves significant risk of loss.</p>
     </div>
 
-    <h2>6. Contact Us</h2>
-    <p>If you have any questions or feedback regarding this privacy policy, feel free to contact us via our official email:</p>
-    <p>Email: <strong>moneybadgermarkets.support@gmail.com</strong></p>
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. Any changes will be posted directly on this page with an updated "Effective Date" at the top.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this privacy policy, feel free to reach out to us via our official YouTube channel or Telegram community links listed inside the app's About section.</p>
 
     <footer>
         <p>&copy; 2026 Money Badger Markets. All Rights Reserved.</p>
